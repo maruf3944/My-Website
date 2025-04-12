@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome First Web Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Base Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #a1c4fd, #c2e9fb); /* Soft Gradient Background */
+            color: #333;
+            line-height: 1.7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-Transparent White Container */
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+            padding: 40px;
+            width: 90%;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        /* Header Section */
+        header {
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #007bff; /* Vibrant Blue */
+            font-size: 3em;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+        .tagline {
+            color: #6c757d;
+            font-style: italic;
+            font-size: 1.1em;
+        }
+
+        /* Content Sections */
+        .section {
+            margin-bottom: 35px;
+            padding: 30px;
+            background-color: #f8f9fa; /* Light Gray Background */
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+            text-align: left;
+        }
+        h2 {
+            color: #28a745; /* Fresh Green */
+            border-bottom: 3px solid #28a745;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+        li::before {
+            content: "\2022"; /* Bullet Point */
+            color: #007bff;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+            position: absolute;
+            left: 0;
+        }
+
+        /* Button Style */
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #dc3545; /* Bold Red */
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+            font-weight: 600;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .button:hover {
+            background-color: #c82333;
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 25px;
+            border-top: 2px solid #eee;
+            color: #777;
+            font-size: 0.95em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Welcome to My Awesome First Web Page!</h1>
+            <p class="tagline">Crafting the digital world, one step at a time with GitHub.</p>
+        </header>
+
+        <section class="section">
+            <h2>✨ About This Beautiful Page</h2>
+            <p>This web page is a visual upgrade, designed to be more engaging and professional-looking. It showcases the effective use of CSS to enhance the structure provided by HTML. Key visual improvements include:</p>
+            <ul>
+                <li>A smooth gradient background that adds depth and visual interest.</li>
+                <li>A semi-transparent container with a subtle box shadow, making the content stand out.</li>
+                <li>Modern typography with a custom font for better readability and aesthetics.</li>
+                <li>Vibrant color accents for headings and interactive elements.</li>
+                <li>Clean and well-spaced sections to improve content flow.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>💡 My Journey in Web Development</h2>
+            <p>I'm enthusiastically learning the core technologies that power the web:</p>
+            <ul>
+                <li><strong><span style="color: #007bff;">HTML</span>:</strong> Building the semantic structure of web content.</li>
+                <li><strong><span style="color: #ffc107;">CSS</span>:</strong> Styling and visually transforming web pages.</li>
+                <li><strong><span style="color: #28a745;">GitHub</span>:</strong> Mastering version control and collaborative development.</li>
+                <li><strong><span style="color: #17a2b8;">(Future) JavaScript</span>:</strong> Adding dynamic behavior and interactivity to websites.</li>
+            </ul>
+            <a href="#" class="button">Explore More About Web Dev <span style="font-size: 1.2em;">➡️</span></a>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 My First Web Page. All rights reserved. <span style="color: #dc3545;">❤️</span></p>
+        </footer>
+    </div>
+</body>
+</html>
